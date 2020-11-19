@@ -1,0 +1,10 @@
+pre-commit
+pytest
+matplotlib
+ipykernel
+autopep8
+pandas
+numpy
+scipy
+sklearn
+plotly
