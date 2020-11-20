@@ -12,6 +12,9 @@ conda-update:
 # creates environment from the file
 setup:
 	pip install pip-tools
-	pip-compile requirements.in
 	pip-sync
 	pre-commit install
+
+
+adding_new_dependencies:
+	pip-compile requirements.in
